@@ -6,7 +6,21 @@ body {
   background-color: #aa2217;
   color:#FFFFFF;
   overflow: hidden;
+  padding: 15px 20px;
+}
+.header-right {
+  float: right;
+}
+
+.sub-header {
+  background-color: #333333;
+  display: block;
+  overflow: hidden;
   padding: 10px 20px;
+}
+.sub-header a {
+  float: right;
+  padding: 5px
 }
 
 h1 {
@@ -14,9 +28,7 @@ h1 {
   font-size: 24px;
 }
 
-.header-right {
-  float: right;
-}
+
 
 a {
   color:#FFFFFF;
