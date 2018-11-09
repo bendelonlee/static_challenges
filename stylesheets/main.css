@@ -5,7 +5,7 @@ body {
 
 p {
   padding-top: 10px;
-  margin-right: 200px;
+  padding-right: 200px;
   padding-left: 20px;
 }
 
@@ -15,17 +15,16 @@ a {
 }
 
 .sidebar {
+  width: 20%;
   float: right;
   margin-left: 20px;
   margin-right: 20px;
 }
 
 .sidebar img {
-  width: 150px;
+  width: 100%;
   margin-bottom: 20px;
 }
-
-
 
 
 h1 {
@@ -75,5 +74,14 @@ h3 {
 }
 
 .main-section img {
-  width: 65%;
+  width: 75%;
+}
+
+.footer {
+  background-color: #333333;
+  color: white;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding: 10px 20px;
 }
