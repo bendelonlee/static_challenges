@@ -1,7 +1,31 @@
 body {
   font-family: Arial;
-  font-size: 12px
+  font-size: 12px;
 }
+
+p {
+  padding: 5px;
+}
+
+a {
+  color:#FFFFFF;
+}
+
+
+
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+
 
 .header {
   background-color: #aa2217;
@@ -24,13 +48,6 @@ body {
   padding: 5px
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 24px;
-}
-
-
-
-a {
-  color:#FFFFFF;
+.main-section {
+  padding: 10px;
 }
