@@ -1,0 +1,14 @@
+.header {
+  background-color: #aa2217;
+  color:#FFFFFF;
+  /* display: inline-block; */
+  overflow: hidden;
+}
+
+.header-right {
+  float: right;
+}
+
+a {
+  color:#FFFFFF;
+}
