@@ -12,6 +12,7 @@ p {
 a {
   font-size: 12px;
   color:#FFFFFF;
+  text-decoration: none;
 }
 
 .sidebar {
@@ -46,24 +47,42 @@ h3 {
 }
 
 .header {
-  background-color: #aa2217;
+  vertical-align: middle;
+  background-color: #1d1d1d;
   color:#FFFFFF;
   overflow: hidden;
-  padding: 15px 20px;
+  height: 50px;
+  display: table;
+  width: 100%;
+}
+
+.page-title {
+  display: table-cell;
+  height: 50px;
+  vertical-align: middle;
+  position: relative;
+  left: 30px;
 }
 .header-right {
-  float: right;
+  display: table-cell;
+  height: 50px;
+  width: 100px;
+  vertical-align: middle;
+  background-color: #648a2b;
+  text-align: center;
 }
 
 .sub-header {
-  background-color: #333333;
+  background-color: #102d5f;
   display: block;
   overflow: hidden;
   padding: 10px 20px;
+  border: 1px solid white;
+  border-style: solid hidden solid hidden;
+  text-align: center;
 }
 .sub-header a {
-  float: right;
-  padding: 5px
+  padding: 7%;
 }
 
 .main-section {
