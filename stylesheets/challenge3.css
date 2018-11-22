@@ -52,6 +52,12 @@ a {
   /* position: inline; */
 }
 
+figure img {
+  border-color: #a44300;
+  border-width: 1px;
+  border-style: solid;
+}
+
 figure {
   display: table;
   width: 29.3%;
@@ -63,9 +69,10 @@ figure {
 
 figcaption {
   padding-top:40px;
+  padding-bottom: 2px;
   font-weight: bold;
   padding-left: 20px;
-  font-size: 20px;
+  font-size: 10px;
   display: table-caption;
   caption-side: top;
   color: white;
@@ -77,15 +84,15 @@ figcaption {
 
 
 h1 {
-  font-weight: bold;
-  font-size: 20px;
+  font-weight: 550;
+  font-size: 16px;
 }
 
 h2 {
   padding-left: 20px;
   padding-top: 10px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 11px;
 }
 
 h3 {
@@ -99,38 +106,38 @@ h3 {
   background-color: #1d1d1d;
   color:#FFFFFF;
   overflow: hidden;
-  height: 50px;
+  height: 35px;
   display: table;
   width: 100%;
 }
 
 .page-title {
   display: table-cell;
-  height: 50px;
+  height: 35px;
   /* text-align: center; */
   vertical-align: middle;
   /* position: absolute; */
-  padding-left: 30px;
+  padding-left: 20px;
 }
 .header-right {
   display: table-cell;
-  height: 50px;
+  height: 35px;
   width: 100px;
   vertical-align: middle;
   text-align: center;
 }
 
 .sub-header {
-  background-color: #102d5f;
+  background-color: #a44300;
   display: block;
   overflow: hidden;
-  padding: 10px 20px;
-  border: 1px solid white;
-  border-style: solid hidden solid hidden;
+  padding: 2px 2px;
   text-align: center;
 }
 .sub-header a {
-  padding: 7%;
+  padding-left: 7%;
+  padding-right: 7%;
+  font-size: 10px;
 }
 
 .main-section {
